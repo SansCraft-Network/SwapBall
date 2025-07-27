@@ -1,0 +1,38 @@
+# SwapBall Plugin Configuration
+config:
+  # WorldGuard regions where SwapBalls can be used
+  # If empty, SwapBalls can be used everywhere
+  allowed-regions:
+    - "spawn"
+    - "pvp-arena"
+    - "battlefield"
+  
+  # Heat-seeking settings
+  heat-seeking:
+    # Maximum distance to search for targets (in blocks)
+    max-target-distance: 50.0
+    
+    # How often the projectile adjusts its direction (in ticks)
+    update-frequency: 2
+    
+    # Speed multiplier for the projectile
+    speed-multiplier: 1.5
+    
+    # Maximum turn angle per update (in degrees)
+    max-turn-angle: 15.0
+  
+  # Swap ball settings
+  swap-ball:
+    # Cooldown between uses (in seconds)
+    cooldown: 5
+    
+    # Particle effects
+    particles:
+      enabled: true
+      type: "FLAME"
+      amount: 10
+    
+    # Sound effects
+    sounds:
+      launch: "ENTITY_SNOWBALL_THROW"
+      hit: "ENTITY_ENDERMAN_TELEPORT"

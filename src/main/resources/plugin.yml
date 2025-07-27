@@ -1,0 +1,25 @@
+name: SwapBall
+version: 2.0.0
+main: top.sanscraft.swapball.SwapBallPlugin
+api-version: 1.21
+author: SansNom
+description: Enhanced swap ball with heat-seeking capabilities
+website: https://sanscraft.top
+
+depend:
+  - WorldGuard
+
+commands:
+  swapball:
+    description: Get a SwapBall 2.0 item
+    usage: /swapball
+    permission: swapball.give
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  swapball.give:
+    description: Allows player to get SwapBall items
+    default: op
+  swapball.use:
+    description: Allows player to use SwapBall items
+    default: true
