@@ -4,7 +4,7 @@ A Minecraft Spigot plugin for Paper 1.21.5 that adds enhanced swap balls with he
 
 **Author:** SansNom  
 **Organization:** SansCraft  
-**Website:** https://sanscraft.top
+**Website:** https://www.sanscraft.top
 
 ## Features
 
